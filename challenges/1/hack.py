@@ -1,7 +1,6 @@
 import socket
 import binascii
 import struct
-import time
 
 def opcodify(hexstr):
     return struct.pack('<I', hexstr)
